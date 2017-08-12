@@ -1,14 +1,15 @@
 #!/bin/bash
 
+
 # A shell script to automatically copy and upload all of your kindle 
 # clippings (My Clippings.txt) to github pages. 
 
+# MAKE SURE YOU HAVE PLUGGED IN YOUR KINDLE FIRST
 # Run this script evertime you want to upload new clippings
 
 # CREATE A REPO ON GITHUB BEFORE RUNNING THIS SCRIPT
 # Create an empty repo on github called "kindle_notes"
 # grab the url (it should be of the form https://github.com/username/kindle_notes.git)
-
 
 # newline for cleaner output
 echo ""
