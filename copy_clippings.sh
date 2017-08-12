@@ -122,6 +122,7 @@ echo ""
 
 # Create an empty repo on github called "kindle_notes"
 # grab the url (it should be of the form https://github.com/username/kindle_notes.git)
+# check https://pages.github.com/#vanilla-step-1 for reference
 # substitute your git repo url here
 MY_REMOTE="https://github.com/retrazil/kindle_notes.git"
 
