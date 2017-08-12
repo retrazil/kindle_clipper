@@ -97,6 +97,7 @@ echo "renamed $CLIPPING -> clippings.txt"
 # head part of html, styling
 echo '<html>
                 <head>
+                        <meta charset="UTF-8">
                         <title>Kindle Clippings</title>
                 </head>
                 <body style="padding: 10px; 
