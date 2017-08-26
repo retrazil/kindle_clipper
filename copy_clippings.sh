@@ -109,7 +109,7 @@ echo '<html>
 ' > html_head.txt
 
 # close all tags
-echo '</pre></body></html>' > html_tail.txt
+echo '</pre><script>window.scrollTo(0, document.body.scrollHeight);</script></body></html>' > html_tail.txt
 
 # wrap html around clippings
 cat html_head.txt clippings.txt html_tail.txt  > index.html
