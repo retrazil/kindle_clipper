@@ -98,13 +98,14 @@ echo "renamed $CLIPPING -> clippings.txt"
 echo '<html>
                 <head>
                         <meta charset="UTF-8">
+                        <meta name="viewport" content="width=360">
                         <title>Kindle Clippings</title>
                 </head>
                 <body style="padding: 10px; 
                              margin: auto; 
-                             max-width:800px; 
+                             max-width:80%; 
                              font-size: 14px;">
-                <pre style="white-space: pre-wrap">
+                <pre style="white-space: pre-wrap;">
 ' > html_head.txt
 
 # close all tags
